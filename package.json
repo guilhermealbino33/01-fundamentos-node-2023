@@ -1,0 +1,24 @@
+{
+  "name": "01-fundamentos-node-2023",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilhermealbino33/01-fundamentos-node-2023.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guilhermealbino33/01-fundamentos-node-2023/issues"
+  },
+  "homepage": "https://github.com/guilhermealbino33/01-fundamentos-node-2023#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
+}
