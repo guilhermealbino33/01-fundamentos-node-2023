@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/guilhermealbino33/01-fundamentos-node-2023/issues"
   },
-  "homepage": "https://github.com/guilhermealbino33/01-fundamentos-node-2023#readme"
+  "homepage": "https://github.com/guilhermealbino33/01-fundamentos-node-2023#readme",
+  "dependencies": {
+    "node-fetch": "^3.3.1"
+  }
 }
