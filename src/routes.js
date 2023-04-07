@@ -33,13 +33,15 @@ export const routes = [
   },
   {
     method: "DELETE",
-    path: buildRoutePath("/users:id"),
+    path: buildRoutePath("/users/:id"),
     handler: (req, res) => {
-      const { id } = req.param;
+      console.log("entrou");
 
-      database.delete(id);
+      const { id } = req.params;
 
-      return res.writeHead(201).end();
+      database.delete("users", id);
+
+      return res.writeHead(204).end();
     },
   },
 ];
